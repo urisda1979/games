@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+        .row div {
+            width: 30px;
+            height: 30px;
+            border: 1px solid black;
+            padding: 10px;
+            float: left;
+        }
+        .row {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="0_0" onclick="place(this)">0_0</div>
+            <div id="1_0" onclick="place(this)">1_0</div>
+            <div id="2_0" onclick="place(this)">2_0</div>
+        </div>
+        <div class="row">
+            <div id="0_1" onclick="place(this)">0_1</div>
+            <div id="1_1" onclick="place(this)">1_1</div>
+            <div id="2_1" onclick="place(this)">2_1</div>
+        </div>
+        <div class="row">
+            <div id="0_2" onclick="place(this)">0_2</div>
+            <div id="1_2" onclick="place(this)">1_2</div>
+            <div id="2_2" onclick="place(this)">2_2</div>
+        </div>
+    </div>
+    
+</body>
+</html>
