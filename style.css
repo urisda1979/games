@@ -1,26 +1,21 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
     display: flex;
+    align-items: center;
     flex-direction: column;
- }
-
- .text {
-    text-align: center;
+    margin-top: 10px;
  }
 
 .row div {
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
     padding: 10px;
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
     float: left;
     text-align: center;
+    margin: 0 auto;
+    font-size: 35px;
 }
 
 .row {
     clear: both;
-    margin: 0 auto;
 }
-
